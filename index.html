@@ -1,29 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <meta name="description" content="Kenzie Form Practice">
-    <meta name="author" content="Kenzie and Colorlib Templates">
-    <meta name="keywords" content="Kenzie Form Practice">
+    <meta name="description" content="Kenzie Form Practice" />
+    <meta name="author" content="Kenzie and Colorlib Templates" />
+    <meta name="keywords" content="Kenzie Form Practice" />
 
     <!-- Title Page-->
     <title>Kenzie Form Practice</title>
 
     <!-- Font special for pages-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
 
     <!-- CSS-->
-    <link href="css/base.css" rel="stylesheet" media="all">
-    <link href="css/main.css" rel="stylesheet" media="all">
-</head>
+    <link href="css/base.css" rel="stylesheet" media="all" />
+    <link href="css/main.css" rel="stylesheet" media="all" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Your html here -->
-</body>
+    <div class="grad">
+      <div class="card">
+        <div class="img">
+          <img
+            src="./images/bg-heading-03.jpg"
+            alt="Woman with hat in Pink Smoke"
+          />
+        </div>
+        <div class="form">
+          <form method="POST">
+            <h3>Registration Info</h3>
+            <!-- Name -->
+            <div class="name" class="formitem">
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <!-- Date -->
+            <div class="date" class="formitem">
+              <input type="date" />
+            </div>
+            <!-- Experience Dropdown -->
+            <div class="selectWrapper" class="formitem">
+              <select name="exp" id="exp">
+                <option value="exp" readonly>Experience</option>
+                <option value="beg">Beginner</option>
+                <option value="int">Intermediate</option>
+                <option value="adv">Advanced</option>
+              </select>
+            </div>
 
+            <!-- Email -->
+            <div class="email" class="formitem">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <!-- Phone (optional) -->
+            <div class="phone" class="formitem">
+              <input type="tel" placeholder="Phone(Optional)" />
+            </div>
+            <!-- Submit -->
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
